@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14A76CD32B22F0E1002E7972 /* swift_foundationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A76CD22B22F0E1002E7972 /* swift_foundationApp.swift */; };
+		14A76CD32B22F0E1002E7972 /* swiftui_foundationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A76CD22B22F0E1002E7972 /* swiftui_foundationApp.swift */; };
 		14A76CD52B22F0E1002E7972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A76CD42B22F0E1002E7972 /* ContentView.swift */; };
 		14A76CD72B22F0E3002E7972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A76CD62B22F0E3002E7972 /* Assets.xcassets */; };
 		14A76CDA2B22F0E3002E7972 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A76CD92B22F0E3002E7972 /* Preview Assets.xcassets */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14A76CCF2B22F0E1002E7972 /* swift_foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A76CD22B22F0E1002E7972 /* swift_foundationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_foundationApp.swift; sourceTree = "<group>"; };
+		14A76CCF2B22F0E1002E7972 /* swiftui_foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A76CD22B22F0E1002E7972 /* swiftui_foundationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_foundationApp.swift; sourceTree = "<group>"; };
 		14A76CD42B22F0E1002E7972 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14A76CD62B22F0E3002E7972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A76CD92B22F0E3002E7972 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		14A76CC62B22F0E1002E7972 = {
 			isa = PBXGroup;
 			children = (
-				14A76CD12B22F0E1002E7972 /* swift_foundation */,
+				14A76CD12B22F0E1002E7972 /* swiftui_foundation */,
 				14A76CD02B22F0E1002E7972 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,15 +49,15 @@
 		14A76CD02B22F0E1002E7972 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14A76CCF2B22F0E1002E7972 /* swift_foundation.app */,
+				14A76CCF2B22F0E1002E7972 /* swiftui_foundation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14A76CD12B22F0E1002E7972 /* swift_foundation */ = {
+		14A76CD12B22F0E1002E7972 /* swiftui_foundation */ = {
 			isa = PBXGroup;
 			children = (
-				14A76CD22B22F0E1002E7972 /* swift_foundationApp.swift */,
+				14A76CD22B22F0E1002E7972 /* swiftui_foundationApp.swift */,
 				14AA56E52B26A06300335A7B /* SpacerView.swift */,
 				14AA56E32B269CF400335A7B /* StructView.swift */,
 				14A76CD42B22F0E1002E7972 /* ContentView.swift */,
@@ -65,7 +65,7 @@
 				14A76CD62B22F0E3002E7972 /* Assets.xcassets */,
 				14A76CD82B22F0E3002E7972 /* Preview Content */,
 			);
-			path = swift_foundation;
+			path = swiftui_foundation;
 			sourceTree = "<group>";
 		};
 		14A76CD82B22F0E3002E7972 /* Preview Content */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14A76CCE2B22F0E1002E7972 /* swift_foundation */ = {
+		14A76CCE2B22F0E1002E7972 /* swiftui_foundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14A76CDD2B22F0E3002E7972 /* Build configuration list for PBXNativeTarget "swift_foundation" */;
+			buildConfigurationList = 14A76CDD2B22F0E3002E7972 /* Build configuration list for PBXNativeTarget "swiftui_foundation" */;
 			buildPhases = (
 				14A76CCB2B22F0E1002E7972 /* Sources */,
 				14A76CCC2B22F0E1002E7972 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = swift_foundation;
+			name = swiftui_foundation;
 			productName = swift_foundation;
-			productReference = 14A76CCF2B22F0E1002E7972 /* swift_foundation.app */;
+			productReference = 14A76CCF2B22F0E1002E7972 /* swiftui_foundation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14A76CCA2B22F0E1002E7972 /* Build configuration list for PBXProject "swift_foundation" */;
+			buildConfigurationList = 14A76CCA2B22F0E1002E7972 /* Build configuration list for PBXProject "swiftui_foundation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14A76CCE2B22F0E1002E7972 /* swift_foundation */,
+				14A76CCE2B22F0E1002E7972 /* swiftui_foundation */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A76CD52B22F0E1002E7972 /* ContentView.swift in Sources */,
-				14A76CD32B22F0E1002E7972 /* swift_foundationApp.swift in Sources */,
+				14A76CD32B22F0E1002E7972 /* swiftui_foundationApp.swift in Sources */,
 				14A76CE12B22F114002E7972 /* FontColorView.swift in Sources */,
 				14AA56E62B26A06300335A7B /* SpacerView.swift in Sources */,
 				14AA56E42B269CF400335A7B /* StructView.swift in Sources */,
@@ -278,7 +278,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swift_foundation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_foundation/Preview Content\"";
 				DEVELOPMENT_TEAM = V4XY939EKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swift_foundation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_foundation/Preview Content\"";
 				DEVELOPMENT_TEAM = V4XY939EKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14A76CCA2B22F0E1002E7972 /* Build configuration list for PBXProject "swift_foundation" */ = {
+		14A76CCA2B22F0E1002E7972 /* Build configuration list for PBXProject "swiftui_foundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A76CDB2B22F0E3002E7972 /* Debug */,
@@ -341,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14A76CDD2B22F0E3002E7972 /* Build configuration list for PBXNativeTarget "swift_foundation" */ = {
+		14A76CDD2B22F0E3002E7972 /* Build configuration list for PBXNativeTarget "swiftui_foundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A76CDE2B22F0E3002E7972 /* Debug */,

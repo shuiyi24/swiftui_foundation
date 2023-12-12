@@ -12,13 +12,13 @@ struct StackView: View {
         //水平布局
         //默认子视图是水平中心对齐的,可添加alignment  修改位置，alignmet 的值有 bottom   top  center等，可自己查看api
         HStack(alignment:.bottom){
-            Text("text")
+            Text("水平布局")
             Image(systemName: "globe").resizable().frame(width: 102,height: 80)
         }
         //垂直布局
         //默认子视图是垂直中心中心对齐的,可添加alignment  修改位置，alignmet 的值有 leading   trailing  center等
         VStack(alignment:.trailing) {
-            Text("text")
+            Text("垂直布局")
             Image(systemName: "globe").resizable().frame(width: 102,height: 80)
         }
         //ZStack用于覆盖子视图,子视图会重叠在一起 alignmet 的值有 leading   trailing  center topLeading bottomLeading等

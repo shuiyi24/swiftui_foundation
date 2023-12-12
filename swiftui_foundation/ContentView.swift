@@ -10,10 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationView {
+                VStack(alignment: .center, spacing: 15){
+                    NavigationLink(destination: StackView() ){
+                        Text("布局")
+                    }
+                    NavigationLink(destination: SpacerView() ){
+                        Text("Spacer")
+                    }
+                    NavigationLink(destination: FontColorView() ){
+                        Text("颜色")
+                    }
+                }
+            }
+                            
+                            
+
         }
         .padding()
     }
